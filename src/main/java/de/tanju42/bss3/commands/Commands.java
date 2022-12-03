@@ -39,6 +39,7 @@ public class Commands extends Command implements TabExecutor {
             arguments.add("test");
             arguments.add("test2");
             arguments.add("tesst");
+            arguments.add("tesstt");
         }
 
         return arguments.stream().filter(s -> s.startsWith(args[args.length-1])).collect(Collectors.toList()); //returns args with auto filtering input.
