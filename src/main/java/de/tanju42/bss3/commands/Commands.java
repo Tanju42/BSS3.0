@@ -40,6 +40,12 @@ public class Commands extends Command implements TabExecutor {
             arguments.add("test2");
             arguments.add("tesst");
             arguments.add("tesstt");
+        } else if (args.length == 2) { // /s 1 2
+            arguments.add("help");
+            arguments.add("test");
+            arguments.add("test2");
+            arguments.add("tesst");
+            arguments.add("tesstt");
         }
 
         return arguments.stream().filter(s -> s.startsWith(args[args.length-1])).collect(Collectors.toList()); //returns args with auto filtering input.
