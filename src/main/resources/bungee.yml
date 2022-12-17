@@ -1,4 +1,4 @@
 name: BSS3.0
 version: '${project.version}'
 main: de.tanju42.bss3.Bss3
-description: A plugin to controll youre server instances inside of minecraft!
+description: A plugin to controll you´re server instances inside of minecraft!
